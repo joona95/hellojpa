@@ -53,4 +53,12 @@ public class Member {
     public void setType(MemberType type) {
         this.type = type;
     }
+
+    public Team getTeam() {
+        return team;
+    }
+
+    public void setTeam(Team team) {
+        this.team = team;
+    }
 }
